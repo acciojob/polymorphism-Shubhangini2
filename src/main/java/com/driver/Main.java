@@ -14,8 +14,8 @@ public class Main {
         }
         //create a Overloaded method product of following defination public double product(double x, double y) {}
 
-        public int product(double x, double y){
-            return (int) (x*y);
+        public double product(double x, double y){
+            return x*y;
         }
 
     }
@@ -27,7 +27,7 @@ public class Main {
         //call the 2nd method also from Main using Product class object p
         p.product(20,30,50);
         //call the 3rd method also from Main using Product class object p
-        p.product(60,50);
+        p.product(60.5,50.5);
     }
 
 }
